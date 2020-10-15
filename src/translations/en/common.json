@@ -1,0 +1,150 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "button": "LOGIN"
+  },
+
+  "register": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "region": "Region",
+    "gender": "Gender",
+    "button": "REGISTER"
+  },
+
+  "admin": {
+    "userManagement": "Users Management",
+    "productManagement": "Product Management",
+    "revenueManagement": "Revenue Management",
+
+    "id": "ID",
+    "name": "Name",
+    "image": "Image",
+    "evaluate": "Evaluate",
+    "price": "Price",
+    "description": "Description",
+    "categories": "Categories",
+    "email": "Email",
+    "phone": "Phone",
+    "quantity": "Quantity",
+    "product": "Product",
+    "total": "Total",
+    "region": "Region",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "edit": "Edit"
+  },
+
+  "topbar": {
+    "time": "Open time",
+    "date": "Monday - Sun"
+  },
+
+  "lr": {
+    "login": "Login",
+    "register": "Register"
+  },
+
+  "menu": {
+    "home": "Home",
+    "product": "Product",
+    "member": "Member"
+  },
+
+  "titleSection": {
+    "listProduct": "List Products",
+    "blog": "Blog",
+    "category": "Category"
+  },
+
+  "breadcrumb": {
+    "home": "Home",
+    "listProduct": "List of products",
+    "login": "Login",
+    "register": "Register",
+    "cart": "Cart" ,
+    "productDetail": "Product detail"
+  },
+
+  "category": {
+    "freshFlower": "Fresh Flower",
+    "bestSale": "Best Sale",
+    "topCollection": "Top Collection",
+    "newCollection": "New Collection",
+    "roseFlowers": "Rose Flowers"
+  },
+
+  "cart": {
+    "product": "product",
+    "cart": "Cart",
+    "image": "Image",
+    "name": "Product's Name",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "intoMoney": "Into Money",
+    "delete": "Delete",
+    "cancelOrder": "Cancel Order",
+    "continue": "Continue to buy",
+    "totalPayment": "Total Payment",
+    "pay": "Pay"
+  },
+
+  "product": {
+    "buy": "BUY NOW"
+  },
+
+  "support": {
+    "support": "SUPPPORT"
+  },
+
+  "search": {
+    "search": "Search..."
+  },
+
+  "footer": {
+    "introTextSocial": "CHANNEL INFORMATION FROM US",
+    "introTextEmail": "SIGN UP TO RECEIVE EMAIL FROM US",
+    "description": "Green shop was established in 8/2010 and has been trusted by customers during its operation to present day by day",
+    "phone": "Phone",
+    "email": "Email",
+
+    "customerInformation": "CUSTOMER INFORMATION",
+    "myAccount": "My account",
+    "favoriteProduct": "Favorite product",
+    "purchaseHistory": "Purchase history",
+    "returnPolicy": "Return policy",
+    "suggestions": "Suggestions, complaints",
+
+    "serviceSupport": "SERVICE SUPPORT",
+    "shopSystem": "Shop system",
+    "shoppingGuide": "Shopping guide",
+    "paymentGuide": "Payment guide",
+    "redeemPoints": "Redeem points",
+    "question": "Frequently asked questions",
+
+    "incentives": "INCENTIVES",
+    "deliveryPolicy": "Delivery policy",
+    "productReturns": "Product returns policy reforms",
+    "warrantyPolicy": "Warranty Policy",
+    "newProducts": "Introducing new products",
+    "paymentPolicy": "Installment payment policy",
+
+    "new": "NEWS",
+    "newS": "News",
+    "promotion": "Promotion",
+    "recruitment": "Recruitment",
+    "download": "Download",
+    "tags": "Tags",
+
+    "siteMap": "Sitemap",
+    "productPortfolio": "Product portfolio",
+    "operate": "Co-operate",
+    "info": "Contact information",
+    "qvsa": "Frequently asked questions",
+
+    "welcome": "Welcome to Shop Green"
+  }
+}

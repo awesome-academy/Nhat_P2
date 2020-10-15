@@ -1,0 +1,32 @@
+.admin-slide-bar {
+  padding: 15px;
+  li {
+    margin-bottom: 15px;
+    a {
+      color: $cl-white;
+      font-size: 14px;;
+      position: relative;
+      padding-left: 22px;
+      &.active {
+        margin-left: 10px;
+      }
+      &:before {
+        content: '\f2be';
+        font-size: 14px;
+        color: currentColor;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        position: absolute;
+        font-family: "FontAwesome";
+      }
+    }
+    &:nth-child(2) a:before {
+      content: '\f288';
+    }
+    &:nth-child(3) a:before {
+      content: '\f155';
+    }
+  }
+  
+}

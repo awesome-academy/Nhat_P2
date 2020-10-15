@@ -1,0 +1,105 @@
+@mixin flex($justify: space-between, $wrap: nowrap, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin d-grid($col) {
+  display: grid;
+  grid-template-columns: $col;
+  grid-gap: 30px;
+}
+
+.trans {
+  $webs: -moz-, -ms-, -o-, -webkit-, space;
+  @each $web in $webs {
+    @if $web == space {
+      transition: all 0.5s ease-in-out;
+    } @else {
+      #{$web}transition: all 0.5s ease-in-out;
+    }
+  }
+}
+
+@mixin b_shadow {
+  $webs: -moz-, -webkit-, space;
+  @each $web in $webs {
+    @if $web == space {
+      box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    } @else {
+      #{$web}box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@mixin tr_scale {
+  $webs: -moz-, -ms-, -o-, -webkit-, space;
+  @each $web in $webs {
+    @if $web == space {
+      transform: scale(1.1);
+    } @else {
+      #{$web}transform: scale(1.1);
+    }
+  }
+}
+
+$bps: (
+  "xl": 1440px,
+  "lg": 1200px,
+  "lgs": 1199px,
+  "md": 991px,
+  "sm": 767px,
+  "xs": 575px,
+  "mbl": 480px,
+  "mbs": 425px,
+);
+@mixin res($bp, $m: max) {
+  // If the key exists in the map
+  @if map-has-key($bps, $bp) {
+    // Prints a media query based on the value
+    @media (#{$m}-width: map-get($bps, $bp)) {
+      @content;
+    }
+  }
+  // If the key doesn't exist in the map
+  @else {
+    @warn "There no `#{$bp}`"
+          + "Available breakpoints are: #{map-keys($bps)}.";
+  }
+}
+
+@mixin icon {
+  $icons: (
+    "login": "\f007",
+    "register": "\f234",
+  );
+  @each $name, $icon in $icons {
+    .icons-#{$name}:before {
+      content: $icon;
+      color: currentColor;
+      padding-right: 10px;
+      font-family: "fontawesome";
+    }
+  }
+}
+
+@mixin icon__footer {
+  $icons: (
+    "mobile": "\f095",
+    "envelope": "\f003",
+  );
+  @each $name, $icon in $icons {
+    .icon__footer-#{$name}:before {
+      content: $icon;
+      font-size: 18px;
+      color: #59b586;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      position: absolute;
+      padding-right: 10px;
+      font-family: "fontawesome";
+    }
+  }
+}

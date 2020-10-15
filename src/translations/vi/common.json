@@ -1,0 +1,150 @@
+{
+  "login": {
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "button": "ĐĂNG NHẬP"
+  },
+
+  "register": {
+    "name": "Tên",
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "phone": "Số điện thoại",
+    "region": "Khu vực",
+    "gender": "Giới tính",
+    "button": "ĐĂNG KÍ"
+  },
+
+  "admin": {
+    "userManagement": "Quản lý người dùng",
+    "productManagement": "Quản lý sản phẩm",
+    "revenueManagement": "Quản lý doanh thu",
+
+    "id": "ID",
+    "name": "Tên",
+    "image": "Hình ảnh",
+    "evaluate": "Đánh giá",
+    "price": "Giá",
+    "description": "Mô tả",
+    "categories": "Thể loại",
+    "email": "E-mail",
+    "phone": "Số điện thoại",
+    "quantity": "Số lượng",
+    "product": "Sản phẩm",
+    "total": "Tổng",
+    "region": "Khu vực",
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "edit": "Chỉnh sửa"
+  },
+
+  "topbar": {
+    "time": "Giờ mở cửa",
+    "date": "Thứ hai - Chủ nhật"
+  },
+
+  "lr": {
+    "login": "Đăng nhập",
+    "register": "Đăng kí"
+  },
+
+  "menu": {
+    "home": "Trang chủ",
+    "product": "Sản phẩm",
+    "member": "Thành viên"
+  },
+
+  "titleSection": {
+    "listProduct": "Danh Sách Sản Phẩm",
+    "blog": "Blog",
+    "category": "Thể loại"
+  },
+
+  "breadcrumb": {
+    "home": "Home",
+    "listProduct": "Danh sách sản phẩm",
+    "login": "Đăng nhập",
+    "register": "Đăng kí",
+    "cart": "Giỏ hàng",
+    "productDetail": "Chi tiết sản phẩm"
+  },
+
+  "category": {
+    "freshFlower": "Hoa tươi",
+    "bestSale": "Bán chạy nhất",
+    "topCollection": "Bộ sưu tập hàng đầu",
+    "newCollection": "Bộ sưu tập mới",
+    "roseFlowers": "Hoa hồng"
+  },
+
+  "cart": {
+    "product": "sản phẩm",
+    "cart": "giỏ hàng",
+    "image": "Hình ảnh",
+    "name": "Tên sản phẩm",
+    "unitPrice": "Đơn giá",
+    "quantity": "Số lượng",
+    "intoMoney": "Thành tiền",
+    "delete": "Xóa",
+    "cancelOrder": "Hủy đơn hàng",
+    "continue": "Tiếp tục mua",
+    "totalPayment": "Tổng phải thanh toán",
+    "pay": "Thanh toán"
+  },
+
+  "product": {
+    "buy": "MUA NGAY"
+  },
+
+  "support": {
+    "support": "HỖ TRỢ"
+  },
+
+  "search": {
+    "search": "Tìm kiếm..."
+  },
+
+  "footer": {
+    "introTextSocial": "KÊNH THÔNG TIN TỪ CHÚNG TÔI",
+    "introTextEmail": "ĐĂNG KÝ NHẬN EMAIL TỪ CHÚNG TÔI",
+    "description": "Green shop được thành lập từ 8/2010 được sự tin tưởng của khách hàng trong suốt thời gian hoạt động đến nay cửa hàng ngày một phát triển",
+    "phone": "Số điện thoại",
+    "email": "E-mail",
+
+    "customerInformation": "THÔNG TIN KHÁCH HÀNG",
+    "myAccount": "Tài khoản của tôi",
+    "favoriteProduct": "Sản phẩm yêu thích",
+    "purchaseHistory": "Lịch sử mua hàng",
+    "returnPolicy": "Chính sách đổi trả",
+    "suggestions": "Góp ý ,khiếu nại",
+
+    "serviceSupport": "HỖ TRỢ DỊCH VỤ",
+    "shopSystem": "Hệ thống cửa hàng",
+    "shoppingGuide": "Hướng dẫn mua hàng",
+    "paymentGuide": "Hướng dẫn thanh toán",
+    "redeemPoints": "Tích điểm đổi quà",
+    "question": "Câu hỏi thường gặp",
+
+    "incentives": "CHÍNH SÁCH ƯU ĐÃI",
+    "deliveryPolicy": "Chính sách giao hàng",
+    "productReturns": "Chính sách đổi trả sản phẩm",
+    "warrantyPolicy": "Chính sách bảo hành",
+    "newProducts": "Giới thiệu sản phẩm mới",
+    "paymentPolicy": "Chính sách trả góp",
+
+    "new": "TIN TỨC",
+    "newS": "Tin mới",
+    "promotion": "Khuyến mại",
+    "recruitment": "Tuyển dụng",
+    "download": "Dowload",
+    "tags": "Tags",
+
+    "siteMap": "Bản đồ",
+    "productPortfolio": "Danh mục sản phẩm",
+    "operate": "Hợp tác",
+    "info": "Thông tin liên hệ",
+    "qvsa": "Câu hỏi thường gặp",
+
+    "welcome": "Chào mừng đến cửa hàng xanh"
+  }
+}

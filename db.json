@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "email": "baba@gmail.com",
+      "password": "$2a$10$gnFnV6/A3.CbNfhbbTVMjuUtIr3iv38lbJ4J/dL4sfkV.D6jNA/Jm",
+      "name": "baba",
+      "phone": "1234567988",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-10-12",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "email": "15i1phamngocnhat@gmail.com",
+      "password": "$2a$10$d7qPYNEWaUUgH9WNkWlti.RLGLhiKieenIYzrW76SHprivL0XurOq",
+      "name": "Nhat Pham",
+      "phone": "1699642493",
+      "region": "Da Nang",
+      "birthday": "2020-10-21",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$LJZAJZSIVG5JAeNCg552TexxWvfQsDtXL1VIBBVWqRR7Y9dIChsQu",
+      "name": "nhat",
+      "phone": "123123123",
+      "region": "",
+      "birthday": "2020-10-16",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "email": "kenken@gmail.com",
+      "password": "$2a$10$s1SYR11dGnNVDB0ENLoOwuIq9DBpaDb/SC/gfLnQYYcm4T9bCycJW",
+      "name": "kenken",
+      "phone": "64894651",
+      "region": "",
+      "birthday": "2020-09-30",
+      "gender": "Male",
+      "id": 4
+    },
+    {
+      "email": "nhat@gmail.com",
+      "password": "$2a$10$2f3ujgzx7Jxhnrv4t8.TfuMI6oo9w3DU6W27lcEEvHjyKVizY60Za",
+      "name": "nhat",
+      "phone": "0399642493",
+      "region": "Ha Noi",
+      "birthday": "1997-02-20",
+      "gender": "Female",
+      "id": 5
+    },
+    {
+      "email": "nhat11@gmail.com",
+      "password": "$2a$10$rhzlo48SxaQ2LmP1CkgFQupy5uhvCmXFTpkMSJ/9sowXtjJlDDb6y",
+      "name": "nhat11",
+      "phone": "0399642493",
+      "region": "Da Nang",
+      "birthday": "2020-10-27",
+      "gender": "Female",
+      "id": 6
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "image": "assets/images/slider/01.png"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/slider/01.png"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/slider/01.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "assets/images/product/01.png",
+      "name": "Cây Mai",
+      "ratings": 5,
+      "price": 120000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/product/02.png",
+      "name": "Cây Mai",
+      "ratings": 4,
+      "price": 750000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/product/03.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 4,
+      "image": "assets/images/product/04.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 5,
+      "image": "assets/images/product/05.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 6,
+      "image": "assets/images/product/06.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 7,
+      "image": "assets/images/product/07.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    },
+    {
+      "id": 8,
+      "image": "assets/images/product/08.png",
+      "name": "Cây Mai",
+      "ratings": 3,
+      "price": 100000,
+      "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+      "categories": "Popular, Winter",
+      "sku": 785,
+      "tag": "lush, seasonal, textured"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "image": "assets/images/blog/01.jpg",
+      "date": "Thứ 7, ngày 31, tháng 12, năm 2015",
+      "title": "15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê",
+      "content": "Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé ! Kết hợp hàng rào"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/blog/02.jpg",
+      "date": "Thứ 7, ngày 31, tháng 12, năm 2015",
+      "title": "Tạo Tiểu Cảnh Góc Sân Cho Nhà Phố, Biệt Thự Đẹp",
+      "content": "Khi bước từ ngoài ngõ vào hay từ trong nhà đi ra, góc sân luôn là điểm nhìn đầu tiên của chúng ta."
+    },
+    {
+      "id": 3,
+      "image": "assets/images/blog/03.jpg",
+      "date": "Thứ 7, ngày 31, tháng 12, năm 2015",
+      "title": "Cách bố trí hoa chậu trước cửa ấn tượng",
+      "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa"
+    }
+  ],
+  "payment": [
+    {
+      "id": 1,
+      "name": "Visa"
+    },
+    {
+      "id": 2,
+      "name": "Cash"
+    }
+  ]
+}
