@@ -1,0 +1,16 @@
+.form {
+  &__group {
+    margin-bottom: 30px;
+    label {
+      font-size: 12px;
+      display: block;
+      font-family: $font_s;
+      margin-bottom: 10px;
+      .required {
+        color: #ed1c24;
+        font-size: 14px;
+        padding-left: 2px;
+      }
+    }
+  }
+}

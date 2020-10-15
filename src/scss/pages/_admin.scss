@@ -1,0 +1,78 @@
+.admin {
+  @include d-grid(1fr 4fr);
+  &__sidebar {
+    &--left {
+      background-color: $cl-m;
+      height: 100%;
+      min-height: 100vh;
+    }
+  }
+  &__content {
+
+  }
+  &__management {
+    padding: 30px 0 100px 0;
+    .add-user {
+      display: block;
+      margin-top: 30px;
+      border-radius: 36px;
+      padding: 14px 40px;
+      background: transparent;
+      border: 1px solid $cl_m;
+      color: $cl_m;
+    }
+    table {
+      width: 100%;
+      position: relative;
+      thead {
+        tr {
+          th {
+            text-align: center;
+            font-size: 14px;
+            color: $cl_white;
+            background-color: $cl_m;
+            padding: 10px;
+            border: 1px solid #ebebeb;
+          }
+        }
+      }
+      tbody {
+        td {
+          padding: 10px;
+          vertical-align: middle;
+          border: 1px solid #ebebeb;
+        }
+      }
+    }
+  }
+}
+
+
+
+.product-management {
+  table {
+    tbody {
+      td {
+        &:nth-child(2) {
+          width: 12%;
+        }
+        &:nth-child(6) {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+.admin__content {
+  table {
+    tr {
+      th {
+        padding: 10px;
+        color: $cl_white;
+        background-color: $cl-m;
+      }
+    }
+  }
+}
+

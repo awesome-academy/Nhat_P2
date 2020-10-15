@@ -1,0 +1,16 @@
+.login {
+  padding-bottom: 50px;
+  &__columns {
+    width: 100%;
+    max-width: 500px;
+    // margin: 0 auto;
+    // padding: 30px;
+    // border: 1px solid $cl_m;
+  }
+  &__left {
+    margin-bottom: 50px;
+  }
+  &__btn {
+    margin-top: 30px;
+  }
+}

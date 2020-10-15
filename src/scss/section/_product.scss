@@ -1,0 +1,129 @@
+.product {
+  &__box {
+    border: 1px solid #e1e1e1;
+    &:hover .product__img .product__overlay {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    &:hover .product__img .product__link a {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  &__img {
+    position: relative;
+    overflow: hidden;
+    @extend.trans;
+    span {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      font-size: 14px;
+      color: $cl_white;
+      display: inline-block;
+      border-radius: 50%;
+      top: 1.5rem;
+      left: 1.5rem;
+      position: absolute;
+      text-transform: uppercase;
+    }
+  }
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    @extend.trans;
+  }
+  &__link {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    a {
+      margin: 0 5px;
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    &--buynow {
+      font-size: 13px;
+      color: $cl_white;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 13px 36px;
+      border-radius: 36px;
+      background-color: $cl_m;
+      border: 1px solid $cl_m;
+      &:hover {
+        background-color: $cl_white;
+      }
+    }
+    &--preview {
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
+      color: #363533;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: $cl_white;
+    }
+  }
+  &__content {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: $cl_white;
+  }
+  &__name {
+    margin-bottom: 0.5rem;
+    a {
+      font-size: 16px;
+    }
+  }
+  &__evaluate {
+    margin-bottom: 0.5rem;
+    i {
+      color: #febf01;
+      font-size: 14px;
+      letter-spacing: 4px;
+    }
+  }
+  &__price {
+    .price {
+      font-size: 18px;
+      color: #ed1c24;
+      font-family: $font_s;
+    }
+  }
+}
+
+.btn__common {
+  font-size: 13px;
+  color: #fff;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 14px 36px 13px 36px;
+  border-radius: 36px;
+  background-color: $cl_m;
+  border: 1px solid $cl_m;
+  &:hover {
+    color: $cl_m;
+    background-color: $cl_white;
+  }
+}
+
+.btn__search,
+.btn__favourite {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: $cl_white;
+  text-align: center;
+  border: 1px solid #ebebeb;
+}
