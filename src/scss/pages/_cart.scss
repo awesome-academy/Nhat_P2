@@ -2,12 +2,12 @@
   padding-bottom: 50px;
 }
 .cart {
-  &__form {
+  &__wrap {
     margin-bottom: 50px;
   }
   &__table {
     width: 100%;
-    margin-bottom: 44px;
+    margin-bottom: 10px;
     td,
     th {
       padding: 10px;
@@ -141,31 +141,31 @@
   &__btn {
     text-align: right;
     a {
-      margin-left: 20px;
-    }
-  }
-  &__pay {
-    table {
-      width: 100%;
-      margin-bottom: 40px;
-    }
-    td {
-      padding: 15px;
-      @include res("xs") {
-        padding: 15px;
-      }
-      border: 1px solid #ebebeb;
-    }
-    tr td {
-      font-size: 14px;
-      font-weight: 700;
-      color: $cl_m;
-      text-transform: uppercase;
-    }
-    &--background {
-      td:last-child {
-        text-align: right;
-      }
+      margin: 0 20px;
     }
   }
 }
+
+.total {
+  &__payment {
+    width: 100%;
+    margin-bottom: 40px;
+    tr {
+      td {
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 700;
+        color: $cl_m;
+        text-transform: uppercase;
+        @include res("xs") {
+          padding: 15px;
+        }
+        border: 1px solid #ebebeb;
+        &:last-child {
+        text-align: right;
+        }
+      }
+    }
+  }  
+}
+
