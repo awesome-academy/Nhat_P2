@@ -87,4 +87,19 @@
       display: none;
     }
   }
+  &__content-search {
+    background-color: $cl_white;
+    padding: 30px;
+    margin-top: 79px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    height: 1000vh;
+    &--columns {
+      @include d-grid(1fr 1fr 1fr 1fr);
+    }
+  }
 }
+
+

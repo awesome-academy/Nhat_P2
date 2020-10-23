@@ -1,51 +1,11 @@
 {
   "users": [
     {
-      "email": "baba@gmail.com",
-      "password": "$2a$10$gnFnV6/A3.CbNfhbbTVMjuUtIr3iv38lbJ4J/dL4sfkV.D6jNA/Jm",
-      "name": "baba",
-      "phone": "1234567988",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-10-12",
-      "gender": "Male",
-      "id": 1
-    },
-    {
-      "email": "15i1phamngocnhat@gmail.com",
-      "password": "$2a$10$d7qPYNEWaUUgH9WNkWlti.RLGLhiKieenIYzrW76SHprivL0XurOq",
-      "name": "Nhat Pham",
-      "phone": "1699642493",
-      "region": "Da Nang",
-      "birthday": "2020-10-21",
-      "gender": "Male",
-      "id": 2
-    },
-    {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$LJZAJZSIVG5JAeNCg552TexxWvfQsDtXL1VIBBVWqRR7Y9dIChsQu",
       "name": "nhat",
-      "phone": "123123123",
-      "region": "",
-      "birthday": "2020-10-16",
-      "gender": "Male",
-      "id": 3
-    },
-    {
-      "email": "kenken@gmail.com",
-      "password": "$2a$10$s1SYR11dGnNVDB0ENLoOwuIq9DBpaDb/SC/gfLnQYYcm4T9bCycJW",
-      "name": "kenken",
-      "phone": "64894651",
-      "region": "",
-      "birthday": "2020-09-30",
-      "gender": "Male",
-      "id": 4
-    },
-    {
       "email": "nhat@gmail.com",
-      "password": "$2a$10$2f3ujgzx7Jxhnrv4t8.TfuMI6oo9w3DU6W27lcEEvHjyKVizY60Za",
-      "name": "nhat",
+      "password": "$2a$10$j19rmBFCVrzRhR1Tr0NdKexRdmPcOd0GEF21jRaif9UoTBIdwsR1W",
       "phone": "0399642493",
-      "region": "Ha Noi",
+      "region": "Ho Chi Minh",
       "birthday": "1997-02-20",
       "gender": "Female",
       "id": 5
@@ -59,6 +19,26 @@
       "birthday": "2020-10-27",
       "gender": "Female",
       "id": 6
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$vCyyR4OdIyMvIkkq1Dpf2enQM13WOHD/KD.K49H5ulpkkk.dTVCBK",
+      "name": "admin",
+      "phone": "123456",
+      "region": "Da Nang",
+      "birthday": "1997-04-10",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "email": "nut@gmail.com",
+      "password": "$2a$10$xnHkV3T5Ey3b0XvPEvQwtOzLI69j8nrWhnGeWV3idJoUE6AnXVlcK",
+      "name": "nut",
+      "phone": "123456789",
+      "region": "Da Nang",
+      "birthday": "2020-10-21",
+      "gender": "Male",
+      "id": 9
     }
   ],
   "slider": [
@@ -77,90 +57,90 @@
   ],
   "products": [
     {
-      "id": 1,
       "image": "assets/images/product/01.png",
-      "name": "Cây Mai",
-      "ratings": 5,
+      "name": "Cây Trúc Nhật",
+      "ratings": "4",
       "price": 120000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
-      "tag": "lush, seasonal, textured"
+      "categories": "Filter The Air",
+      "sku": 740,
+      "tag": "lush, seasonal, textured",
+      "id": 1
     },
     {
       "id": 2,
       "image": "assets/images/product/02.png",
-      "name": "Cây Mai",
+      "name": "Cây Xương Rồng",
       "ratings": 4,
       "price": 750000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Strong",
+      "sku": 292,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 3,
       "image": "assets/images/product/03.png",
-      "name": "Cây Mai",
+      "name": "Cây Hồng Xiêm",
       "ratings": 3,
-      "price": 100000,
+      "price": 950000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Don't Need Light",
+      "sku": 347,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 4,
       "image": "assets/images/product/04.png",
-      "name": "Cây Mai",
+      "name": "Cây Đế Vương",
       "ratings": 3,
-      "price": 100000,
+      "price": 445000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Adapt Well",
+      "sku": 992,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 5,
       "image": "assets/images/product/05.png",
-      "name": "Cây Mai",
+      "name": "Cây Tài Lộc",
       "ratings": 3,
-      "price": 100000,
+      "price": 850000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Purifying The Air",
+      "sku": 813,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 6,
       "image": "assets/images/product/06.png",
-      "name": "Cây Mai",
+      "name": "Cây Ngân Hậu",
       "ratings": 3,
-      "price": 100000,
+      "price": 610000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Easy To Grow",
+      "sku": 355,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 7,
       "image": "assets/images/product/07.png",
-      "name": "Cây Mai",
+      "name": "Cây Cung Điện",
       "ratings": 3,
-      "price": 100000,
+      "price": 570000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
-      "sku": 785,
+      "categories": "Reduce Toxic Substances",
+      "sku": 124,
       "tag": "lush, seasonal, textured"
     },
     {
       "id": 8,
       "image": "assets/images/product/08.png",
-      "name": "Cây Mai",
+      "name": "Cây Phát Tài",
       "ratings": 3,
-      "price": 100000,
+      "price": 190000,
       "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
-      "categories": "Popular, Winter",
+      "categories": "Against Electric Rays",
       "sku": 785,
       "tag": "lush, seasonal, textured"
     }
@@ -188,14 +168,222 @@
       "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa"
     }
   ],
-  "payment": [
+  "newcarts": [
     {
-      "id": 1,
-      "name": "Visa"
+      "totalPayment": 2690000,
+      "listProduct": [
+        {
+          "id": 1,
+          "image": "assets/images/product/01.png",
+          "name": "Cây Mai",
+          "ratings": 5,
+          "price": 120000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Mai",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Mai",
+          "ratings": 3,
+          "price": 100000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 2
+        }
+      ],
+      "currentPayment": "ATM",
+      "email": "kenken@gmail.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Cash"
+      "totalPayment": 950000,
+      "listProduct": [
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Mai",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Mai",
+          "ratings": 3,
+          "price": 100000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 2
+        }
+      ],
+      "currentPayment": "MoMo",
+      "email": "nhat@gmail.com",
+      "id": 2
+    },
+    {
+      "totalPayment": 1700000,
+      "listProduct": [
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Mai",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Mai",
+          "ratings": 3,
+          "price": 100000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 2
+        }
+      ],
+      "currentPayment": "MoMo",
+      "email": "kenken@gmail.com",
+      "id": 3
+    },
+    {
+      "totalPayment": 850000,
+      "listProduct": [
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Mai",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Mai",
+          "ratings": 3,
+          "price": 100000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        }
+      ],
+      "currentPayment": "ATM",
+      "email": "kenken@gmail.com",
+      "id": 4
+    },
+    {
+      "totalPayment": 850000,
+      "listProduct": [
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Mai",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Mai",
+          "ratings": 3,
+          "price": 100000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Popular, Winter",
+          "sku": 785,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        }
+      ],
+      "currentPayment": "MoMo",
+      "email": "kenken@gmail.com",
+      "id": 5
+    },
+    {
+      "totalPayment": 14895000,
+      "listProduct": [
+        {
+          "id": 2,
+          "image": "assets/images/product/02.png",
+          "name": "Cây Xương Rồng",
+          "ratings": 4,
+          "price": 750000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Strong",
+          "sku": 292,
+          "tag": "lush, seasonal, textured",
+          "quantity": 18
+        },
+        {
+          "id": 3,
+          "image": "assets/images/product/03.png",
+          "name": "Cây Hồng Xiêm",
+          "ratings": 3,
+          "price": 950000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Don't Need Light",
+          "sku": 347,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "image": "assets/images/product/04.png",
+          "name": "Cây Đế Vương",
+          "ratings": 3,
+          "price": 445000,
+          "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m",
+          "categories": "Adapt Well",
+          "sku": 992,
+          "tag": "lush, seasonal, textured",
+          "quantity": 1
+        }
+      ],
+      "currentPayment": "ATM",
+      "email": "nut@gmail.com",
+      "id": 6
     }
   ]
 }
