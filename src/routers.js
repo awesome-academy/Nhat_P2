@@ -7,7 +7,7 @@ import Home from "./components/pages/Home";
 // import ProductDetail from "./components/pages/ProductDetail";
 import AdminProductManagement from "./components/pages/AdminProductManagement";
 import AdminUsersManagement from "./components/pages/AdminUserManagement";
-// import AdminRevenueManagement from "./components/pages/AdminRevenueManagement";
+import AdminRevenueManagement from "./components/pages/AdminRevenueManagement";
 
 const routers = [
   {
@@ -35,11 +35,11 @@ const routers = [
     exact: true,
     main: () => <AdminUsersManagement />,
   },
-  // {
-  //   path: "/admin-revenue-management",
-  //   exact: true,
-  //   main: () => <AdminRevenueManagement />,
-  // },
+  {
+    path: "/admin-revenue-management",
+    exact: true,
+    main: () => <AdminRevenueManagement />,
+  },
   // {
   //   path: "/list-product-sidebar",
   //   exact: true,
