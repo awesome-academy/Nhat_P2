@@ -7,6 +7,7 @@ import currentProductReducer from "./slice/currentProduct";
 import registerReducer from "./slice/registerSlice";
 import loginReducer from "./slice/loginSlice";
 import userReducer from "./slice/adminUserManagementSlice";
+import newCartReducer from "./slice/adminNewCartManagementSlice";
 
 const store = configureStore({
   reducer: {
@@ -18,6 +19,7 @@ const store = configureStore({
     login: loginReducer,
     register: registerReducer,
     user: userReducer,
+    listNewCart: newCartReducer,
   },
 });
 export default store;
