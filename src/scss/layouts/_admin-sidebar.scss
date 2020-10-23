@@ -1,15 +1,26 @@
 .admin-slide-bar {
-  padding: 15px;
   li {
-    margin-bottom: 15px;
+    display: inline-block;
+    padding: 15px;
+    background: $cl_m;
+    margin-right: 10px;
+    position: relative;
+    &.active:after {
+      content: '';
+      bottom: -7px;
+      left: 20px;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      background: $cl_white;
+      transform: rotate(45deg);
+      background-color: $cl_m;
+    }
     a {
       color: $cl-white;
       font-size: 14px;;
       position: relative;
       padding-left: 22px;
-      &.active {
-        margin-left: 10px;
-      }
       &:before {
         content: '\f2be';
         font-size: 14px;
