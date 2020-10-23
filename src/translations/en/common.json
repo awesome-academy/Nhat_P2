@@ -28,6 +28,7 @@
     "description": "Description",
     "categories": "Categories",
     "email": "Email",
+    "payment": "Payment",
     "phone": "Phone",
     "quantity": "Quantity",
     "product": "Product",
@@ -35,7 +36,23 @@
     "region": "Region",
     "birthday": "Birthday",
     "gender": "Gender",
-    "edit": "Edit"
+    "edit": "Edit",
+    "remove": "Remove",
+    "editRemove": "Edit / Remove",
+
+    "addProduct": "Add Product"
+  },
+
+  "editAddProduct": {
+    "image": "Image",
+    "name": "Name",
+    "rating": "Rating",
+    "price": "Price",
+    "sku": "Storage Unit (SKU)",
+    "tag": "Tag",
+    "description": "Description",
+    "buttonEditProduct": "Edit Product",
+    "buttonAddProduct": "Add Product"
   },
 
   "topbar": {
@@ -66,15 +83,19 @@
     "login": "Login",
     "register": "Register",
     "cart": "Cart" ,
-    "productDetail": "Product detail"
+    "productDetail": "Product detail",
+    "pay": "Pay"
   },
 
   "category": {
-    "freshFlower": "Fresh Flower",
-    "bestSale": "Best Sale",
-    "topCollection": "Top Collection",
-    "newCollection": "New Collection",
-    "roseFlowers": "Rose Flowers"
+    "rose": "Rose",
+    "snapdragon": "Snapdragon",
+    "sweetPea": "Sweet Pea",
+    "zennia": "Zennia",
+    "peony": "Peony",
+    "callaLify": "Calla Lify",
+    "spray": "Spray",
+    "hydrangea": "Hydrangea"
   },
 
   "cart": {
@@ -94,6 +115,12 @@
 
   "product": {
     "buy": "BUY NOW"
+  },
+
+  "productDetail": {
+    "sku": "SKU",
+    "tag": "Tag",
+    "amount": "Amount"
   },
 
   "support": {

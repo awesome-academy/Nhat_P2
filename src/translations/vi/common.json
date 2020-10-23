@@ -28,6 +28,7 @@
     "description": "Mô tả",
     "categories": "Thể loại",
     "email": "E-mail",
+    "payment": "Thanh toán",
     "phone": "Số điện thoại",
     "quantity": "Số lượng",
     "product": "Sản phẩm",
@@ -35,7 +36,23 @@
     "region": "Khu vực",
     "birthday": "Ngày sinh",
     "gender": "Giới tính",
-    "edit": "Chỉnh sửa"
+    "edit": "Sửa",
+    "remove": "Xóa",
+    "editRemove": "Sửa / Xóa",
+
+    "addProduct": "Thêm Sản Phảm"
+  },
+
+  "editAddProduct": {
+    "image": "Hình Ảnh",
+    "name": "Tên",
+    "rating": "Xếp hạng",
+    "price": "Giá",
+    "sku": "Đơn vị lưu kho (SKU)",
+    "tag": "Nhãn",
+    "description": "Mô tả",
+    "buttonEditProduct": "Chỉnh sửa Sản phẩm",
+    "buttonAddProduct": "Thêm Sản phẩm"
   },
 
   "topbar": {
@@ -66,15 +83,19 @@
     "login": "Đăng nhập",
     "register": "Đăng kí",
     "cart": "Giỏ hàng",
-    "productDetail": "Chi tiết sản phẩm"
+    "productDetail": "Chi tiết sản phẩm",
+    "pay": "Thanh toán"
   },
 
   "category": {
-    "freshFlower": "Hoa tươi",
-    "bestSale": "Bán chạy nhất",
-    "topCollection": "Bộ sưu tập hàng đầu",
-    "newCollection": "Bộ sưu tập mới",
-    "roseFlowers": "Hoa hồng"
+    "rose": "Cây Hồng Xiêm",
+    "snapdragon": "Cây đậu rồng",
+    "sweetPea": "Cây đậu bông",
+    "zennia": "Cây xa ức",
+    "peony": "Cây pandie",
+    "callaLify": "Cây lay thoa",
+    "spray": "Cây dưa đại",
+    "hydrangea": "Cây điệp xô"
   },
 
   "cart": {
@@ -94,6 +115,12 @@
 
   "product": {
     "buy": "MUA NGAY"
+  },
+
+  "productDetail": {
+    "sku": "Đơn vị lưu kho",
+    "tag": "Nhãn",
+    "amount": "Số lượng"
   },
 
   "support": {
