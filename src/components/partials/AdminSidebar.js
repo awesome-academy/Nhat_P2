@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const AdminSideBar = () => {
   const { t } = useTranslation("common");
-
   const location = useLocation();
 
   const ADMIN_SLIDE_BAR = [
@@ -16,13 +15,8 @@ const AdminSideBar = () => {
   return (
     <ul className="admin-slide-bar">
       {ADMIN_SLIDE_BAR.map((e, i) => (
-        <li key={i}>
-          <Link
-            to={e.to}
-            className={location.pathname === e.to ? "active" : ""}
-          >
-            {e.title}
-          </Link>
+        <li className={location.pathname === e.to ? "active" : ""} key={i}>
+          <Link to={e.to}>{e.title}</Link>
         </li>
       ))}
     </ul>

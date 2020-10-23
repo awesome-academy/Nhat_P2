@@ -1,18 +1,12 @@
 .admin {
-  @include d-grid(1fr 4fr);
+  height: 800vh;
+  padding: 50px 0 100px 0;
   &__sidebar {
-    &--left {
-      background-color: $cl-m;
-      height: 100%;
-      min-height: 100vh;
-    }
+    margin-bottom: 30px;
   }
-  &__content {
 
-  }
   &__management {
-    padding: 30px 0 100px 0;
-    .add-user {
+    .add {
       display: block;
       margin-top: 30px;
       border-radius: 36px;
@@ -20,6 +14,7 @@
       background: transparent;
       border: 1px solid $cl_m;
       color: $cl_m;
+      background-color: $cl_white;
     }
     table {
       width: 100%;
@@ -37,6 +32,7 @@
         }
       }
       tbody {
+        background-color: $cl_white;
         td {
           padding: 10px;
           vertical-align: middle;
@@ -45,9 +41,44 @@
       }
     }
   }
+  &__action {
+    button {
+      @extend.trans;
+      border-radius: 36px;
+      margin: 0 5px;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: 0;
+      color: $cl_m;
+      background-color: transparent;
+      &:hover {
+        border-radius: 36px;
+      }
+    }
+  }
+  &__add-edit,
+  &__background {
+    background-color: #ebebeb;
+  }
+  &__frames {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+    form {
+      padding: 30px;
+      border: 2px dashed #59b586;
+      border-radius: 10px;
+      background-color: $cl_white;
+      input {
+        font-size: 14px;
+      }
+    }
+    &--grid {
+      @include d-grid(1fr 1fr);
+    }
+  }
 }
-
-
 
 .product-management {
   table {
